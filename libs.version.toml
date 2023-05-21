@@ -1,0 +1,10 @@
+[versions]
+compileSdkVersion = 33
+
+
+
+
+
+[plugins]
+protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
